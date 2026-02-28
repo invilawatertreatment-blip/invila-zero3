@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invila™ | Zero Capex Water Infrastructure & SPAM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --primary: #0056b3;
+            --secondary: #00a8e8;
+            --dark: #1a1a1a;
+            --light: #f4f7f6;
+            --accent: #ffcc00;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: var(--light);
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--dark) 0%, #333 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 { font-size: 3.5rem; margin-bottom: 10px; font-weight: 800; }
+        .hero p { font-size: 1.3rem; color: var(--secondary); margin-bottom: 40px; }
+
+        .stats-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .stat-box {
+            background: rgba(255,255,255,0.1);
+            padding: 25px;
+            border-radius: 12px;
+            min-width: 220px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .stat-number { display: block; font-size: 2.8rem; font-weight: 800; color: var(--accent); }
+
+        section {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 50px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+        }
+
+        h2 { border-left: 6px solid var(--primary); padding-left: 20px; margin-bottom: 30px; font-size: 2rem; }
+        
+        .highlight-text { color: var(--primary); font-weight: 600; }
+
+        /* Content Sections from Original Site */
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .feature-item {
+            background: #f9f9f9;
+            padding: 25px;
+            border-radius: 12px;
+            border-bottom: 4px solid var(--primary);
+        }
+
+        /* Calculator Grid */
+        .calc-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        input {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0 20px 0;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            font-size: 1rem;
+        }
+
+        .result-box {
+            background: #e7f3ff;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px dashed var(--primary);
+        }
+
+        .btn-main {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 18px 35px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 1.1rem;
+            width: 100%;
+            transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .btn-main:hover { transform: scale(1.02); background: var(--secondary); }
+
+        footer { background: var(--dark); color: white; text-align: center; padding: 60px 20px; }
+
+        @media (max-width: 768px) {
+            .calc-grid { grid-template-columns: 1fr; }
+            .hero h1 { font-size: 2.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="hero">
+    <h1>Invila™ Infrastructure</h1>
+    <p>Solusi Air Bersih Kawasan Industri & Perumahan Tanpa Capex</p>
+    <div class="stats-container">
+        <div class="stat-box">
+            <span class="stat-number">7jt+ m³</span>
+            <span>Kapasitas Nasional / Bulan</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-number">3-6 Bln</span>
+            <span>Deployment Tercepat</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-number">0%</span>
+            <span>Investasi Awal Klien</span>
+        </div>
+    </div>
+</header>
+
+<section id="about">
+    <h2>Mengapa Bermitra dengan Invila™?</h2>
+    <p>Kami memahami bahwa membangun infrastruktur air (WTP/SPAM) membutuhkan biaya modal (**CAPEX**) yang sangat besar dan risiko operasional (**OPEX**) yang tinggi. Invila™ hadir sebagai mitra strategis yang menanggung seluruh investasi tersebut.</p>
+    
+    <div class="feature-grid">
+        <div class="feature-item">
+            <h3>Sistem Modular & Scalable</h3>
+            <p>Teknologi WTP kami berbasis modular yang dapat ditambah kapasitasnya seiring dengan pertumbuhan hunian atau industri Anda tanpa mengganggu sistem yang ada.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Zero Management Risk</h3>
+            <p>Kami bertanggung jawab penuh atas kualitas air sesuai Permenkes, pemeliharaan rutin, hingga penggantian komponen media filter secara periodik.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Efisiensi Keuangan</h3>
+            <p>Bayar hanya berdasarkan air yang Anda konsumsi. Bebaskan dana CAPEX Anda untuk pengembangan bisnis utama lainnya.</p>
+        </div>
+    </div>
+</section>
+
+<section id="kalkulator">
+    <h2>Simulasi Efisiensi Finansial (NPV)</h2>
+    <div class="calc-grid">
+        <div>
+            <label>Kebutuhan Air Rata-rata (m³/bulan):</label>
+            <input type="number" id="volume" value="20000" oninput="updateChart()">
+            <label>Biaya Air Saat Ini (Rp/m³):</label>
+            <input type="number" id="hargaLama" value="14500" oninput="updateChart()">
+            <label>Penawaran Sewa Invila™ (Rp/m³):</label>
+            <input type="number" id="hargaInvila" value="11000" oninput="updateChart()">
+        </div>
+        <div>
+            <canvas id="savingsChart"></canvas>
+            <div class="result-box">
+                <h3 id="hasilHemat">Total Penghematan: Rp 840.000.000 / Thn</h3>
+                <p>Meningkatkan EBITDA dan NPV Proyek Anda secara signifikan.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="investor" style="background: #fdfdfd;">
+    <h2>Investor Relations: The Strategic Business Case</h2>
+    <div class="feature-grid">
+        <div class="card" style="padding: 20px; border-radius: 10px; background: white; border: 1px solid #eee;">
+            <h3 style="color: var(--primary);">High Recurring Revenue</h3>
+            <p>Struktur kontrak jangka panjang (10-20 tahun) memberikan arus kas masuk yang stabil dan sangat terprediksi bagi investor.</p>
+        </div>
+        <div class="card" style="padding: 20px; border-radius: 10px; background: white; border: 1px solid #eee;">
+            <h3 style="color: var(--primary);">Asset-Backed Investment</h3>
+            <p>Setiap modal dikonversi menjadi unit infrastruktur fisik terukur yang dilindungi oleh kontrak asuransi dan jaminan teknis.</p>
+        </div>
+    </div>
+</section>
+
+<section id="loi">
+    <h2>Generator Draft LOI Resmi</h2>
+    <p>Dapatkan draf komitmen kerjasama (Letter of Intent) secara instan untuk dipelajari oleh jajaran Direksi Anda.</p>
+    <form id="loiForm">
+        <input type="text" id="name" placeholder="Nama Lengkap & Jabatan" required>
+        <input type="text" id="company" placeholder="Nama Kawasan / Perusahaan" required>
+        <input type="email" id="email" placeholder="Email Bisnis (@perusahaan.com)" required>
+        <button type="button" class="btn-main" onclick="handleLOI()">Unduh & Proses Draft LOI</button>
+    </form>
+</section>
+
+<footer>
+    <h2>Invila™ Water Infrastructure</h2>
+    <p>Pulo Gadung, Jakarta Timur - Indonesia</p>
+    <p style="opacity: 0.6; font-size: 0.8rem;">&copy; 2024-2027 zerocapexwaterinfrastructure.com. Hak Cipta Dilindungi.</p>
+</footer>
+
+<script>
+    let myChart;
+
+    function updateChart() {
+        const volume = document.getElementById('volume').value || 0;
+        const hargaLama = document.getElementById('hargaLama').value || 0;
+        const hargaInvila = document.getElementById('hargaInvila').value || 0;
+
+        const biayaLamaTahun = (volume * hargaLama) * 12;
+        const biayaInvilaTahun = (volume * hargaInvila) * 12;
+        const hematTahun = biayaLamaTahun - biayaInvilaTahun;
+
+        document.getElementById('hasilHemat').innerText = 
+            "Total Penghematan: Rp " + hematTahun.toLocaleString('id-ID') + " / Thn";
+
+        const ctx = document.getElementById('savingsChart').getContext('2d');
+        if (myChart) { myChart.destroy(); }
+
+        myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Biaya PDAM/Lama', 'Biaya Invila™'],
+                datasets: [{
+                    label: 'Biaya Tahunan (IDR)',
+                    data: [biayaLamaTahun, biayaInvilaTahun],
+                    backgroundColor: ['#ff4d4d', '#28a745'],
+                    borderRadius: 5
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: { legend: { display: false } },
+                scales: { y: { beginAtZero: true } }
+            }
+        });
+    }
+
+    function handleLOI() {
+        const name = document.getElementById('name').value;
+        if(name) {
+            alert("Terima kasih Bpk/Ibu " + name + ". Draft LOI sedang dikomposisi berdasarkan data simulasi Anda. Tim kami akan menghubungi email Anda dalam waktu 1x24 jam.");
+        } else {
+            alert("Harap lengkapi data Anda.");
+        }
+    }
+
+    window.onload = updateChart;
+</script>
+
+</body>
+</html>
